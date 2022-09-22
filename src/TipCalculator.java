@@ -19,9 +19,9 @@ public class TipCalculator {
         System.out.print("Enter the dish price, e.g. 10.50 (-1 to end): ");
         double dish = scan.nextDouble();
         scan.nextLine();
-        while (dish != -1);
+        while (dish != -1)
         {
-            System.out.println("Enter the dish price, e.g. 10.50 (-1 to end): ");
+            System.out.print("Enter the dish price, e.g. 10.50 (-1 to end): ");
             dish = scan.nextDouble();
         }
     }
